@@ -1,0 +1,258 @@
+a img{
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+.carousel-item{
+	width:100%;
+	height:400px;
+}
+.carousel-item>img{
+	width:100%;
+	height:400px;
+}
+.logo{
+	width: 10%;
+	height: 10%;
+	border-radius: 50%;
+}
+
+.collapse{
+	margin-left: 40%;
+}
+.heading{
+	margin-left: 20%;
+	font-family: Arial Black;
+	font-size: 30px;
+	text-shadow: 1px 2px 3px  red;
+}
+.card-group .card img{
+	height: 50%;
+}
+.navbar{
+	background-color: black;
+	border:2px solid white;
+}
+video{
+	background-color: black;
+}
+video:hover{
+	opacity:.9;
+	box-shadow: 1px 1px 3px 2px blue;
+}
+button{
+	background-color: gray;
+	border:1px solid white;
+	box-shadow: 0 1px 1px 2px white;
+}
+.navbar-toggler-icon{
+	display: block;
+	width: 30px;
+	height: 2px;
+	margin:5px;
+	background-color: black;
+	box-shadow: 0 1px 1px 1px white;
+}
+
+.box{
+	display: inline-block;
+	border: 2px double white;
+	box-shadow: 1px 3px 5px 1px black;
+	width:100%;
+	height: 220px;
+	
+}
+	.box1,.box2{
+		margin-left: 1.5%
+	}
+	.box2{
+		margin-left: 1.5%;
+		margin-right: 1%;
+	}
+.card1,.card2,.card3{
+	box-shadow: 1px 3px 5px 1px black;
+	margin:1%;
+}
+.fab{
+	font-size: 25px;
+}
+.fa-linkedin{
+	color:#007dbb;
+	animation:animate1 2s infinite;
+}
+.fa-whatsapp-square{
+	color:#25d366;
+	animation:animate1 2s infinite;
+}.fa-facebook-square{
+	color:#483d8b;
+	animation:animate1 2s infinite;
+}
+.fa-instagram-square{
+	color: #FD1D1D;
+	animation:animate1 2s infinite;
+}
+.fa-youtube{
+	color:#FF0000;
+	animation:animate1 2s infinite;
+}
+@keyframes animate1{
+	0%{ transform: rotate(90deg);	
+		text-shadow: 1px 2px 10px; 
+	}
+	50%{
+       transform: rotate(180deg);
+       text-shadow: 1px 2px 30px;
+	}
+	50%{
+       transform: rotate(360deg);
+       text-shadow: 1px 2px 50px;
+	}
+}
+.card-header{
+	background-color: black;
+	margin-top: 50px;
+}
+.nav-tabs{
+	display: flex;
+	justify-content: space-around;
+	
+}.link{
+	background-color:gray;
+	margin-left: 20px;
+	color:blue;
+	font-size: 20px;
+}
+.card-img-top{
+	height: 300px;
+}
+.sing{
+	height: 100px;
+	width:100%;
+	margin-bottom: -45px;
+	text-align: center;
+	background-color:black;
+}
+.arro{
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0%;
+	animation:animate 1s infinite;
+
+}
+.sing h2{
+	animation:animated 1s infinite;
+}
+.card-img-top{
+	height: 300px;
+}
+.logo1{
+	border-radius: 50%;
+}
+@keyframes animated{
+	0%{ text-shadow: 1px 2px 10px white;
+		color:yellow;
+	}
+	25%{
+      text-shadow: 1px 2px 10px white;
+      color:#0000ff;
+	}
+	50%{
+      text-shadow: 1px 2px 10px white;
+      color:#00ff00;
+	}75%{
+      text-shadow: 1px 2px 10px white;
+      color:#ffff00;
+	}
+	100%{
+      text-shadow: 1px 2px 10px white;
+      color:#ffffff;
+	}
+}
+@keyframes animate{
+	0%{ margin-top:-10px;	
+	}
+	100%{
+       margin-bottom:-30px;
+	}
+}
+@media screen and (min-width:900px){
+	.box1{
+		width:31%;
+	}
+	.box2{
+		width:31%;
+	}
+	.box3{
+		width:31%;
+	}
+	.card1{display: inline-block;
+		float: left;
+      width:31.3%;
+	}
+	.card2{
+      width:31.3%;
+	}
+	.card3{
+		width:31.3%;
+	}
+	
+}
+@media (min-width:550.1px) and (max-width:899.9px){
+	.box1{
+		width:47%;
+	}
+	.box2{
+		width:47%;
+	}
+	.box3{
+		width:98%;
+		margin:1%;
+
+	}
+	.card1{display: inline-block;
+		float: left;
+      width:48%;
+	}
+	.card2{display: inline-block;
+      width:48%;
+	}
+	.card3{
+		width:100%;
+	
+}
+
+@media (min-width: 320px) and (max-width:550px){
+	.video{
+		width: 100%;
+		height: 100%;
+		margin: 1%;
+		background-color: black;
+		padding:2%;
+	}
+	.box{
+		width:98%;
+		margin:1%;
+	}
+	ul li{display: block;
+		width:100%;
+	}
+	.collapse{
+		margin-left: 0%;
+	}
+	.nav-link{
+	border:1px solid white;
+	color: white;
+	width:120%;
+	font-family: arial;
+	margin-left: -10%;
+	text-align: center;
+}
+	.nav-link:hover{
+	background-color: #800080;
+	color:red;
+	text-shadow: 0 1px 1px 5px black;
+}
+
+}
